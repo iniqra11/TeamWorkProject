@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.ImagesFragment">
+    <Button
+        android:layout_centerInParent="true"
+        android:id="@+id/galleryButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="50dp"
+        android:background="@drawable/button_style"
+        android:backgroundTint="@color/lightGrey"
+        android:paddingVertical="15dp"
+        android:textSize="16sp"
+        android:textAllCaps="false"
+        android:text="Gallery" />
+    <ImageView
+
+        android:visibility="gone"
+        android:id="@+id/companyLogo"
+        android:src="@drawable/company_logo"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="10dp"
+        android:layout_height="400dp"/>
+
+
+</RelativeLayout>

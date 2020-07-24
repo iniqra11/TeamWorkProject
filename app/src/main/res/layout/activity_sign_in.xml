@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.SignInActivity">
+    <LinearLayout
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <EditText
+            android:paddingVertical="15dp"
+            android:paddingHorizontal="8dp"
+            android:background="@drawable/edit_text_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:layout_marginHorizontal="50dp"
+            android:hint="Email"/>
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="10dp"/>
+        <EditText
+            android:paddingVertical="15dp"
+            android:paddingHorizontal="8dp"
+            android:background="@drawable/edit_text_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:layout_marginHorizontal="50dp"
+            android:hint="Password"/>
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"/>
+
+        <Button
+            android:id="@+id/signInButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="50dp"
+            android:background="@drawable/button_style"
+            android:paddingVertical="15dp"
+            android:textSize="16sp"
+            android:textAllCaps="false"
+            android:text="Sign In" />
+
+    </LinearLayout>
+
+</RelativeLayout>
